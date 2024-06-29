@@ -244,3 +244,113 @@ main {
   font-weight: 500;
   font-size: 24px;
 }
+
+/* Case studies */
+.case-studies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.case-studies-container .case-studies-menu h4 {
+  font-weight: 700;
+  font-size: 52px;
+  color: rgba(13, 71, 161, 1);
+  margin-bottom: 24px;
+}
+
+.case-studies-container .case-studies-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
+
+}
+
+.case-studies-container .case-studies-menu ul a {
+  text-decoration: none;
+  display: block;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px;
+  width: 100%;
+}
+
+.case-studies-active-menu {
+  background-color: rgba(187, 222, 251, 1);
+  color: rgba(13, 71, 161, 1) !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.case-studies-container .case-studies-itens {
+  width: 55vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 600px;
+  
+}
+
+.case-studies-container .case-studies-item {
+  border-radius: 5px;
+  width: 480px;
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.case-studies-container .case-studies-item h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+
+.case-studies-container .case-studies-item p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+
+#case-studies-corporate {
+  background-image: url('./img/corporate.jpeg');
+  background-size: cover;
+}
+
+#case-studies-advertising {
+  background-image: url('./img/advertising.jpeg');
+  background-size: cover;
+}
+
+#case-studies-marketing {
+  background-image: url('./img/marketing.jpeg');
+  background-size: cover;
+}
+
+#case-studies-government {
+  background-image: url('./img/government.jpeg');
+  background-size: cover;
+}
+
+
+
+/* Auxiliares */
+.desactive-item-studies {
+  display: none !important;
+}
+
+.active-item-studies {
+  display: flex;
+  width: 100% !important;
+  height: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
