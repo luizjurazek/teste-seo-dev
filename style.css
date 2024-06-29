@@ -354,3 +354,43 @@ main {
   justify-content: center !important;
   align-items: center !important;
 }
+
+
+/* our values */
+.our-values-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.our-values-container .our-values-text {
+  width: 500px;
+}
+
+.our-values-container .our-values-first-text h4 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.our-values-container .our-values-first-text p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.our-values-container .our-values-first-line {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.our-values-container .our-values-first-line h5 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.our-values-container .our-values-first-line p {
+  font-weight: 400;
+  font-size: 16px;
+}
