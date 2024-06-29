@@ -1,0 +1,90 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+
+/* Menu */
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1380px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.container-menu .menu-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-menu .menu-logo img {
+  max-width: 50px;
+  margin-right: 25px;
+}
+
+.container-menu .menu-logo p {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.container-menu .menu {
+  display: flex;
+  justify-content: center;
+}
+
+.container-menu .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 30vw;
+}
+
+.container-menu .menu ul a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  padding: 5px;
+}
+
+.container-menu .menu ul a:hover {
+  color: #2196F3 !important;
+  border-bottom: 4px solid #2196F3 !important;
+}
+
+.container-menu .menu-user {
+  display: flex;
+  width: 20vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-menu .menu-user ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 60%;
+}
+
+.container-menu .menu-user ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #302f2f;
+}
+
+.container-menu .menu-user ul .menu-register-btn {
+  background-color: #2196F3;
+  color: #fff;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+/* Hero banner */
