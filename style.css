@@ -11,7 +11,6 @@ main {
   margin: 0 auto;
 }
 
-
 /* Menu */
 .container-menu {
   display: flex;
@@ -72,7 +71,7 @@ main {
 
 .container-menu .menu-user ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
   width: 60%;
 }
