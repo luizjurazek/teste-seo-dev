@@ -106,6 +106,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   height: 250px;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .hero-container .hero-text p {
@@ -145,7 +146,8 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 50px; 
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .info-container .info-item {
@@ -176,4 +178,69 @@ main {
 
 .info-container hr {
   height: 50px;
+}
+
+/* About us */
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.about-us-container .about-us-img img {
+  width: 654px;
+  height: 654px;
+}
+
+.about-us-container .about-us-text {
+  width: 600px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.about-us-container .about-us-text h3 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-us-container .about-us-text p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.about-us-container .about-us-text .about-us-achievement {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us-container .about-us-text .about-us-achievement .about-us-achievement-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-container .about-us-text .about-us-achievement h4 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.about-us-container .about-us-text .about-us-achievement hr {
+  width: 60px;
+  height: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #00bcd4;
+}
+
+.about-us-container .about-us-text .about-us-achievement p {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 24px;
 }
