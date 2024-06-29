@@ -138,3 +138,42 @@ main {
   height: 416px;
 }
 
+/* info container */
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.info-container .info-item {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.info-container .info-item h2 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.info-container .info-item p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.info-container .info-item:hover h2 {
+  color: #2196F3 !important;
+}
+
+.info-container .info-item:hover {
+  border-bottom: 6px solid #2196f3;
+  border-bottom-width: 6px
+}
+
+.info-container hr {
+  height: 50px;
+}
